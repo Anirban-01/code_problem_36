@@ -1,0 +1,16 @@
+# Write a Python program to count the number of characters (character frequency) in a string
+
+sample_string = 'google.com'
+
+value1 = sample_string.count('g')
+value2 = sample_string.count('o')
+value3 = sample_string.count('l')
+value4 = sample_string.count('e')
+value5 = sample_string.count('.')
+value6 = sample_string.count('c')
+value7 = sample_string.count('m')
+
+total = {'g':value1, 'o': value2, 'o': value2, 'g':value1, 'l':value3, 'e':value4, '.':value5, 'c':value6, 'o':value2, 'm':value7}
+
+
+print(total)
